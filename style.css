@@ -1,0 +1,70 @@
+ul{
+  list-style-type: none;
+}
+
+.link{
+text-decoration: none;
+cursor:alias;
+color: black;
+margin-right: 10px;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+}
+
+
+.head{
+height: 100vh;
+}
+
+
+.foto{
+ width: 350px;
+ height: 270px;
+ border-radius: 5px;
+ border: 2px solid black;
+}
+
+.titolo{
+  width: 350px;
+}
+
+
+*{
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.primafoto{
+  width: 100%;
+}
+
+.card-img-top{
+  width: 286px;
+  height: 286px;
+}
+
+
+.container-accordion{
+  margin-top: 3pc;
+}
+
+
+@media screen and (max-width:680px) {
+  .foto{
+      margin-left: 12px;
+  }
+  .titolo{
+      width: auto;
+  }
+
+  .primafoto{
+      height: 80%;
+  }
+
+  .card{
+    margin-left: 4pc;
+  }
+}
